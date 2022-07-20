@@ -38,6 +38,14 @@ body {
     color: white;
     display: inline-block;
     margin-top: 30px;
+    transition: ease 1s;
+
+}
+
+.watch-btn:hover {
+    background-color: white;
+    color: black;
+    font-size: 20px;
 }
 
 .watch-btn i {
