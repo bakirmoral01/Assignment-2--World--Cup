@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+@media only screen and (min-width: 300px) and (max-width: 577px) {
 
     /* banner style start  */
     .banner-bg {
@@ -10,7 +10,7 @@
 
     .banner-text {
         color: white;
-        width: 50%;
+        width: 80%;
         text-align: center;
         padding-left: 0;
         margin-bottom: 25px;
@@ -18,7 +18,12 @@
 
 
     .banner-img {
-        width: 50%;
+        width: 80%;
+        margin-left: 15%;
+    }
+
+    .banner-img img {
+        width: 90%;
     }
 
     /* banner style end */
@@ -46,7 +51,7 @@
     }
 
     .buttons button {
-        width: 35%;
+        width: 55%;
         padding: 5px;
         border-radius: 10px;
         border: 1px solid rgb(232, 232, 232);
@@ -92,7 +97,7 @@
     /* footer style start  */
 
     .footer-text {
-        width: 95%;
+        width: 85%;
         margin: 0px 5%;
     }
 
@@ -102,11 +107,16 @@
         margin-top: 50px;
     }
 
+    .footer-navbar {
+        padding: 10px 50px;
+    }
+
     nav ul {
         display: flex;
         flex-direction: column;
         gap: 5%;
         align-items: center;
+        padding-left: 0px;
     }
 
     nav ul li {
