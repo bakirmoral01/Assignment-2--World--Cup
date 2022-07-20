@@ -1,0 +1,229 @@
+@media (max-width: 576px) {
+
+    /* banner style start  */
+    .banner-bg {
+        background-color: black;
+        display: flex;
+        border-radius: 10px;
+        flex-direction: column;
+    }
+
+    .banner-text {
+        color: white;
+        width: 50%;
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 25px;
+    }
+
+
+    .banner-img {
+        width: 50%;
+    }
+
+    /* banner style end */
+
+    /* article style start  */
+
+    .article {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-button {
+        width: 100%;
+        background-color: white;
+        height: 250px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons button {
+        width: 35%;
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid rgb(232, 232, 232);
+        margin: 15px 15px;
+    }
+
+    .all-btn,
+    .up-btn {
+        background-color: transparent;
+    }
+
+    .article-btn-bg {
+        background-color: rgb(221, 0, 0);
+    }
+
+    .article-btn-bg>a {
+        color: white;
+    }
+
+    .article-blogs {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        width: 100%;
+    }
+
+    .blog-img img {
+        width: 100%;
+    }
+
+    #last-blog-tab {
+        display: none;
+    }
+
+    /* article style end  */
+
+
+    /* footer style start  */
+
+    .footer-text {
+        width: 95%;
+        margin: 0px 5%;
+    }
+
+    .footer-bg {
+        background-color: black;
+        height: 400px;
+        margin-top: 50px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    /* footer style end */
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    /* banner style start  */
+
+    .banner-text h2 {
+        font-size: 23px;
+    }
+
+    .banner-img {
+        position: relative;
+        top: 7px;
+    }
+
+    .watch-btn {
+        text-decoration: none;
+        background-color: #DD0000;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        margin-top: 0;
+    }
+
+    /* banner style end  */
+
+    /* article style start  */
+
+    .article {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .article-button {
+        width: 100%;
+        background-color: white;
+        height: 100px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons button {
+        width: 30%;
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid rgb(232, 232, 232);
+        margin: 10px 14px;
+    }
+
+    .all-btn,
+    .up-btn {
+        background-color: transparent;
+    }
+
+    .article-btn-bg {
+        background-color: rgb(221, 0, 0);
+    }
+
+    .article-btn-bg>a {
+        color: white;
+    }
+
+    .article-blogs {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 30px;
+    }
+
+    .blog-img img {
+        width: 100%;
+    }
+
+    #last-blog-tab {
+        display: none;
+    }
+
+    .tab-view-btn {
+        visibility: visible;
+        text-decoration: none;
+        background-color: rgb(221, 0, 0);
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        display: inline-block;
+        margin-top: 40px;
+        font-size: 20px;
+        border: transparent;
+    }
+
+    /* article style start  */
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        justify-content: center;
+    }
+
+    /* footer style end  */
+}

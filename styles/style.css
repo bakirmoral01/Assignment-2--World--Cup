@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common style  */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner style start  */
+
+.banner-bg {
+
+    background-color: black;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.banner-text {
+    color: white;
+    width: 50%;
+    padding-left: 10%;
+}
+
+.banner-text h2 {
+    font-size: 30px;
+}
+
+.banner-img {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.watch-btn {
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.watch-btn i {
+    margin-left: 10px;
+}
+
+/* banner style end  */
+
+/* article style start  */
+
+
+.article {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.article-button {
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+
+.buttons {
+    display: flex;
+    padding: 10px 45px;
+    flex-direction: column;
+
+}
+
+.buttons button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.article-btn-bg {
+    background-color: #DD0000;
+}
+
+.article-btn-bg>a {
+    color: white;
+}
+
+
+.article-blogs {
+    width: 70%;
+    margin-left: 15px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 30px;
+}
+
+.blog {
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 5px;
+}
+
+
+.blog-btn {
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.blog-text {
+    padding: 20px;
+}
+
+.blog-info {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    color: #161616;
+}
+
+.tab-view-btn {
+    visibility: hidden;
+}
+
+/* article style end  */
+
+/* footer style start  */
+
+.footer-bg {
+    background-color: black;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    width: 90%;
+    margin-left: 5%;
+}
+
+.footer-navbar {
+    padding: 10px 70px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #B9B9B9;
+}
+
+/* footer style end  */
