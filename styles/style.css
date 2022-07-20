@@ -110,6 +110,28 @@ body {
     border-radius: 5px;
 }
 
+.up-blog-img {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 25px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.up-img-left {
+    margin-right: 10px;
+}
+
+.up-img-right {
+    margin-left: 10px;
+}
+
+.up-blog-text {
+    margin-left: 40px;
+
+    font-family: 'Poppins', sans-serif;
+}
 
 .blog-btn {
     border: 1px solid black;
